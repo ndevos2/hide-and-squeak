@@ -87,7 +87,8 @@ void loop() {
   Serial.print("Travelling in the ");
   Serial.print(directionString);
   Serial.print(" direction at a speed of ");
-  Serial.println(rightWheelSpeed);
+  Serial.print(rightWheelSpeed);
+  Serial.println(" RPM.");
   Serial.print("Travelling for ");
   Serial.print(directionTime);
   Serial.println(" milliseconds.");
